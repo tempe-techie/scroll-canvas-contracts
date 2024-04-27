@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.19;
 
-import {Attestation} from "@eas/contracts/IEAS.sol";
+import {Attestation} from "@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol";
 
 import {ScrollBadgeAccessControl} from "../extensions/ScrollBadgeAccessControl.sol";
 import {ScrollBadgeSingleton} from "../extensions/ScrollBadgeSingleton.sol";

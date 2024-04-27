@@ -2,7 +2,7 @@
 
 pragma solidity 0.8.19;
 
-import {Attestation} from "@eas/contracts/IEAS.sol";
+import {Attestation} from "@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol";
 
 import {Base64} from "@openzeppelin/contracts/utils/Base64.sol";
 import {Strings} from "@openzeppelin/contracts/utils/Strings.sol";

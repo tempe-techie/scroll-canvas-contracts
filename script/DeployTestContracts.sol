@@ -4,8 +4,8 @@ pragma solidity 0.8.19;
 import {Script} from "forge-std/Script.sol";
 import {console} from "forge-std/console.sol";
 
-import {SchemaRegistry, ISchemaRegistry} from "@eas/contracts/SchemaRegistry.sol";
-import {EAS} from "@eas/contracts/EAS.sol";
+import {SchemaRegistry, ISchemaRegistry} from "@ethereum-attestation-service/eas-contracts/contracts/contracts/SchemaRegistry.sol";
+import {EAS} from "@ethereum-attestation-service/eas-contracts/contracts/contracts/EAS.sol";
 
 import {ProxyAdmin} from "@openzeppelin/contracts/proxy/transparent/ProxyAdmin.sol";
 import {

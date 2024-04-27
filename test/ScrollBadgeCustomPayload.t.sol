@@ -4,7 +4,7 @@ pragma solidity 0.8.19;
 
 import {ScrollBadgeTestBase} from "./ScrollBadgeTestBase.sol";
 
-import {Attestation} from "@eas/contracts/IEAS.sol";
+import {Attestation} from "@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol";
 
 import {ScrollBadge} from "../src/badge/ScrollBadge.sol";
 import {ScrollBadgeCustomPayload} from "../src/badge/extensions/ScrollBadgeCustomPayload.sol";

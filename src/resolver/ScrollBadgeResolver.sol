@@ -2,9 +2,9 @@
 
 pragma solidity 0.8.19;
 
-import {Attestation, IEAS} from "@eas/contracts/IEAS.sol";
-import {EMPTY_UID, NO_EXPIRATION_TIME} from "@eas/contracts/Common.sol";
-import {SchemaResolver, ISchemaResolver} from "@eas/contracts/resolver/SchemaResolver.sol";
+import {Attestation, IEAS} from "@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol";
+import {EMPTY_UID, NO_EXPIRATION_TIME} from "@ethereum-attestation-service/eas-contracts/contracts/Common.sol";
+import {SchemaResolver, ISchemaResolver} from "@ethereum-attestation-service/eas-contracts/contracts/resolver/SchemaResolver.sol";
 
 import {Address} from "@openzeppelin/contracts/utils/Address.sol";
 

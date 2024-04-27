@@ -5,8 +5,8 @@ pragma solidity 0.8.19;
 import {Test} from "forge-std/Test.sol";
 import {VmSafe} from "forge-std/Vm.sol";
 
-import {EAS, IEAS} from "@eas/contracts/EAS.sol";
-import {SchemaRegistry, ISchemaRegistry} from "@eas/contracts/SchemaRegistry.sol";
+import {EAS, IEAS} from "@ethereum-attestation-service/eas-contracts/contracts/EAS.sol";
+import {SchemaRegistry, ISchemaRegistry} from "@ethereum-attestation-service/eas-contracts/contracts/SchemaRegistry.sol";
 
 import {
     ITransparentUpgradeableProxy,

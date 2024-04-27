@@ -4,9 +4,9 @@ pragma solidity 0.8.19;
 
 import {Test} from "forge-std/Test.sol";
 
-import {EAS} from "@eas/contracts/EAS.sol";
-import {EMPTY_UID, NO_EXPIRATION_TIME} from "@eas/contracts/Common.sol";
-import {SchemaRegistry, ISchemaRegistry} from "@eas/contracts/SchemaRegistry.sol";
+import {EAS} from "@ethereum-attestation-service/eas-contracts/contracts/EAS.sol";
+import {EMPTY_UID, NO_EXPIRATION_TIME} from "@ethereum-attestation-service/eas-contracts/contracts/Common.sol";
+import {SchemaRegistry, ISchemaRegistry} from "@ethereum-attestation-service/eas-contracts/contracts/SchemaRegistry.sol";
 
 import {
     IEAS,
@@ -14,7 +14,7 @@ import {
     AttestationRequestData,
     RevocationRequest,
     RevocationRequestData
-} from "@eas/contracts/IEAS.sol";
+} from "@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol";
 
 import {ERC721} from "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 

@@ -2,8 +2,8 @@
 
 pragma solidity 0.8.19;
 
-import {Attestation} from "@eas/contracts/IEAS.sol";
-import {NO_EXPIRATION_TIME} from "@eas/contracts/Common.sol";
+import {Attestation} from "@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol";
+import {NO_EXPIRATION_TIME} from "@ethereum-attestation-service/eas-contracts/contracts/Common.sol";
 
 import {ScrollBadge} from "../ScrollBadge.sol";
 import {ExpirationDisabled} from "../../Errors.sol";

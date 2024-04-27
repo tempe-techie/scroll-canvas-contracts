@@ -4,8 +4,8 @@ pragma solidity 0.8.19;
 
 import {ScrollBadgeTestBase} from "./ScrollBadgeTestBase.sol";
 
-import {EMPTY_UID, NO_EXPIRATION_TIME} from "@eas/contracts/Common.sol";
-import {AttestationRequest, AttestationRequestData} from "@eas/contracts/IEAS.sol";
+import {EMPTY_UID, NO_EXPIRATION_TIME} from "@ethereum-attestation-service/eas-contracts/contracts/Common.sol";
+import {AttestationRequest, AttestationRequestData} from "@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol";
 
 import {EthereumYearBadge} from "../src/badge/examples/EthereumYearBadge.sol";
 

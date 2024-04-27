@@ -4,7 +4,7 @@ pragma solidity 0.8.19;
 import {Script} from "forge-std/Script.sol";
 import {console} from "forge-std/console.sol";
 
-import {Attestation, IEAS} from "@eas/contracts/IEAS.sol";
+import {Attestation, IEAS} from "@ethereum-attestation-service/eas-contracts/contracts/contracts/contracts/contracts/contracts/contracts/contracts/contracts/contracts/contracts/IEAS.sol";
 
 import {AttesterProxy} from "../src/AttesterProxy.sol";
 import {ScrollBadge} from "../src/badge/ScrollBadge.sol";

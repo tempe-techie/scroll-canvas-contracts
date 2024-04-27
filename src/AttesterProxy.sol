@@ -7,12 +7,12 @@ import {
     AttestationRequest,
     RevocationRequest,
     DelegatedProxyAttestationRequest
-} from "@eas/contracts/eip712/proxy/EIP712Proxy.sol";
+} from "@ethereum-attestation-service/eas-contracts/contracts/eip712/proxy/EIP712Proxy.sol";
 
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";
 
-import {AccessDenied} from "@eas/contracts/Common.sol";
-import {IEAS, Attestation} from "@eas/contracts/IEAS.sol";
+import {AccessDenied} from "@ethereum-attestation-service/eas-contracts/contracts/Common.sol";
+import {IEAS, Attestation} from "@ethereum-attestation-service/eas-contracts/contracts/IEAS.sol";
 
 /// @title AttesterProxy
 /// @notice An EIP712 proxy that allows only specific addresses to attest.
